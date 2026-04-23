@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Important 💖</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      text-align: center;
+      font-family: Arial;
+      padding-top: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #ff3385;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Okay but seriously ❤️</h1>
+  <p>I really like you.</p>
+  <p>You make my days better just by being you 😊</p>
+
+  <button onclick="showMessage()">Click for a secret 💌</button>
+
+  <p id="secret" style="display:none; margin-top:20px; font-size:20px;">
+    You’re my favorite person ❤️
+  </p>
+
+  <script>
+    function showMessage() {
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+</body>
+</html>
